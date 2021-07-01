@@ -1,0 +1,34 @@
+{
+    "title":"设计模式实践",
+    "author":"pzb",
+    "structure": {
+        "readme": "INTRO.md"
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "splitter",
+        "back-to-top-button",
+        "expandable-chapters-small",
+        "code",
+        "copy-code-button",
+        "emphasize",
+        "-highlight",
+        "tbfed-pagefooter"
+        ],
+        "pluginsConfig": {
+            "tbfed-pagefooter": {
+                "copyright": "商业架构组 in ZHIHU",
+                "modify_label": "该文件修订时间：",
+                "modify_format": "YYYY-MM-DD HH:mm:ss"
+            }
+        }
+}
